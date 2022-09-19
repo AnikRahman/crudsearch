@@ -60,10 +60,7 @@ function App() {
       
     }
 
-    if (postId == 1000 || username == "hranik"){
-      toast.error("Already Exist !  Please Go for Update the comment");
-      return ;
-     }
+  
     else{
       if(!editMode) {
         axios.post(api ,state);
